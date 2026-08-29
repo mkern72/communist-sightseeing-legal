@@ -100,18 +100,27 @@
   device at that moment and is <strong>never stored on our servers</strong> — a check-in records
   only the site and the date, not where you were.</p>
 
+  <p><strong>Crash reports.</strong> If the app crashes, a report is sent automatically so we can
+  find and fix the fault. It holds the technical detail of the failure — the error, where in the
+  code it happened, your device model, and the operating system and app versions. It does
+  <strong>not</strong> hold your name, email address, username, location or IP address, and it is
+  not tied to your account. These reports are processed by
+  <a href="https://sentry.io/privacy/">Sentry</a> on servers in the European Union.</p>
+
   <h2>What we do not do</h2>
   <ul>
-    <li>No advertising, no ad networks, no analytics or tracking SDKs.</li>
+    <li>No advertising, no ad networks, no analytics or tracking SDKs. The only diagnostic data we
+    receive is the crash reports described above, and they do not identify you.</li>
     <li>No selling or sharing of personal data with third parties.</li>
     <li>No reading of your contacts, messages, or anything else outside the app.</li>
   </ul>
 
   <h2>Where data lives</h2>
   <p>Data is stored with <a href="https://supabase.com/privacy">Supabase</a> (our database,
-  authentication and file-storage provider). All traffic between the app and the server is
-  encrypted in transit (TLS). Your sign-in session is stored on your device in the operating
-  system's secure keystore.</p>
+  authentication and file-storage provider). Crash reports are handled separately by
+  <a href="https://sentry.io/privacy/">Sentry</a>, also within the European Union. All traffic
+  between the app and the server is encrypted in transit (TLS). Your sign-in session is stored
+  on your device in the operating system's secure keystore.</p>
 
   <h2>Data retention and deletion</h2>
   <p>Your data is kept for as long as your account exists. You can delete your account at any time
