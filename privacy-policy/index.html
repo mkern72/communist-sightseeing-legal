@@ -70,7 +70,7 @@
 <main>
   <h1>Privacy Policy</h1>
   <p class="sub">HELD - Communist Sightseeing</p>
-  <p class="meta">Last updated: 2 September 2026</p>
+  <p class="meta">Last updated: 16 September 2026</p>
 
   <p>This policy covers the HELD - Communist Sightseeing mobile app, which helps you discover sites of
   communist history and keep a record of the ones you have visited.</p>
@@ -120,8 +120,9 @@
     <li>No advertising, no ad networks, no analytics or tracking SDKs. The only diagnostic data we
     receive is the crash reports described above, and they do not identify you.</li>
     <li>No selling of your data, and no sharing it for anyone else's purposes. The only third
-    parties involved are the service providers named under <em>Where data lives</em>, who handle it
-    solely to run the app.</li>
+    parties involved are those named under <em>Where data lives</em>, each one there because it
+    provides a part of the app — storage, crash reports, address search, maps, updates — and for no
+    other purpose.</li>
     <li>No reading of your contacts, messages, or anything else outside the app.</li>
   </ul>
 
@@ -131,8 +132,19 @@
   <a href="https://sentry.io/privacy/">Sentry</a>, also within the European Union. Address searches
   on the suggest-a-site form go to <a href="https://photon.komoot.io/">Photon</a>, run by komoot;
   those requests carry only the text you typed and the pin's coordinates, and nothing is stored by
-  us as a result. All traffic between the app and the server is encrypted in transit (TLS). Your sign-in session is stored
-  on your device in the operating system's secure keystore.</p>
+  us as a result.</p>
+
+  <p>Two more services your device contacts directly, which are part of how the app is built rather
+  than places we keep anything. The maps are <a href="https://policies.google.com/privacy">Google
+  Maps</a>: as you move around a map your device asks Google for the tiles to draw, and if you have
+  granted location permission the map draws your position using Google's own location layer. We
+  receive nothing from that. Updates to the app are delivered by
+  <a href="https://expo.dev/privacy">Expo</a>: each time the app starts it asks Expo whether a newer
+  version exists, and that request carries the app version, the platform and a random identifier for
+  the installation — not for you, and not linked to your account.</p>
+
+  <p>All traffic between the app and the server is encrypted in transit (TLS). Your sign-in session
+  is stored on your device in the operating system's secure keystore.</p>
 
   <h2>Data retention and deletion</h2>
   <p>Your data is kept for as long as your account exists. You can delete your account at any time
