@@ -10,6 +10,11 @@ Served by GitHub Pages at:
 - https://mkern72.github.io/communist-sightseeing-legal/privacy-policy
 - https://mkern72.github.io/communist-sightseeing-legal/account-deletion
 
+with Dutch and German versions one level below each (`/privacy-policy/nl`,
+`/privacy-policy/de`, `/account-deletion/nl`, `/account-deletion/de`), linked
+from the English pages. The app opens the page for the language it runs in;
+the Play Console forms keep the English URLs.
+
 ## Why this is a separate repository
 
 The app's own repository is private, and GitHub Pages does not serve private
